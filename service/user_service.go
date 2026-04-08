@@ -146,7 +146,7 @@ func generateID() string {
 // generateRandomNumber generates a random number (simplified for example)
 func generateRandomNumber() int {
 	// In production, use crypto/rand or a proper ID generator
-	return int(1000000 + (999999 * 0.5))
+	return 1500000
 }
 
 // Made with Bob
